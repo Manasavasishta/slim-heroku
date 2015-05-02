@@ -3,7 +3,7 @@
 
 $app = new \Slim\Slim();
 
-$app->get('/',function($name){
+$app->get('/',function(){
            echo "Foo!";
 });
 $app->run();
